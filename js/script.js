@@ -3,7 +3,7 @@ console.log(list);
 
 let i = 0;
 while (i < list.length){
-    console.log(i);
+    console.log(list[i]);
     i++;
 }
 
