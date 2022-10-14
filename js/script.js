@@ -5,8 +5,8 @@ let i = 0;
 
 while (i < list.length){
     console.log(list[i]);
-    const result = document.querySelector("li");
-    result.innerHTML = list[i]
+    const result = document.querySelector(".lista-spesa");
+    result.innerHTML += `<li>${list[i]}</li>`
     i++;
 
 }
